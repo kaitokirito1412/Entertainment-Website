@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeCentral</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">AnimeCentral</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link cart-link" href="cart.html">
+                                <svg class="cart-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="9" cy="21" r="1"></circle>
+                                    <circle cx="20" cy="21" r="1"></circle>
+                                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                </svg>
+                                <span class="cart-badge">0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero fade-in">
+            <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <video class="d-block w-100" autoplay muted loop>
+                            <source src="video/1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="carousel-item">
+                        <video class="d-block w-100" autoplay muted loop>
+                            <source src="video/2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="carousel-item">
+                        <video class="d-block w-100" autoplay muted loop>
+                            <source src="video/3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                     <div class="carousel-item">
+                        <video class="d-block w-100" autoplay muted loop>
+                            <source src="video/4.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="search-section fade-in">
+            <div class="container">
+                <div class="input-group mx-auto">
+                    <input type="text" class="form-control" placeholder="Search anime, figures, or cards...">
+                    <button class="btn btn-search" type="button">Search</button>
+                </div>
+                <div class="categories text-center mt-4">
+                    <a href="shop.html#stufftoys" class="category-link">Stufftoys</a>
+                    <a href="shop.html#figures" class="category-link">Figures</a>
+                    <a href="shop.html#cards" class="category-link">Trading Cards</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-plants fade-in">
+            <div class="container">
+                <h3 class="section-header">Anime Watch Party!</h3>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="product-card">
+                            <div class="card-img-wrapper">
+                                <img src="image/l1.jpg" class="card-img-top" alt="Anime 1">
+                                <a href="shop.html" class="quick-view-btn">Quick View</a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Demon Slayer S4</h5>
+                                <p class="card-text">New Episodes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="product-card">
+                            <div class="card-img-wrapper">
+                                <img src="image/l2.jpg" class="card-img-top" alt="Anime 2">
+                                <a href="shop.html" class="quick-view-btn">Quick View</a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Jujutsu Kaisen</h5>
+                                <p class="card-text">Movie Release</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="product-card">
+                            <div class="card-img-wrapper">
+                                <img src="image/l3.jpg" class="card-img-top" alt="Anime 3">
+                                <a href="shop.html" class="quick-view-btn">Quick View</a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">My Hero Academia</h5>
+                                <p class="card-text">Season 7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="best-selling fade-in">
+            <div class="container">
+                <h3 class="section-header">Best Selling</h3>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <a href="product.html" class="text-decoration-none">
+                            <div class="product-card">
+                                <div class="card-img-wrapper">
+                                    <img src="image/b1.jpg" class="card-img-top" alt="Stufftoy">
+                                    <span class="quick-view-btn">Quick View</span>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Pikachu Stufftoy</h5>
+                                    <p class="card-text">₱799</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <a href="product.html" class="text-decoration-none">
+                            <div class="product-card">
+                                <div class="card-img-wrapper">
+                                    <img src="image/b2.jpg" class="card-img-top" alt="Figure">
+                                    <span class="quick-view-btn">Quick View</span>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Naruto Figure</h5>
+                                    <p class="card-text">₱1,499</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <a href="product.html" class="text-decoration-none">
+                            <div class="product-card">
+                                <div class="card-img-wrapper">
+                                    <img src="image/b3.webp" class="card-img-top" alt="Trading Card">
+                                    <span class="quick-view-btn">Quick View</span>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Pokémon Card Pack</h5>
+                                    <p class="card-text">₱599</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 AnimeCentral. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const elements = document.querySelectorAll('.fade-in');
+            elements.forEach(element => {
+                element.classList.add('fade-in');
+            });
+        });
+    </script>
+</body>
+</html>
