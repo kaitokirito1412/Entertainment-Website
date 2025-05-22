@@ -12,7 +12,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a class="navbar-brand logo" href="index.html">AnimeCentral</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Close navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -70,7 +70,7 @@
                             Your browser does not support the video tag.
                         </video>
                     </div>
-                     <div class="carousel-item">
+                    <div class="carousel-item">
                         <video class="d-block w-100" autoplay muted loop>
                             <source src="video/4.mp4" type="video/mp4">
                             Your browser does not support the video tag.
@@ -102,15 +102,15 @@
             </div>
         </section>
 
-        <section class="featured-plants fade-in">
+        
             <div class="container">
                 <h3 class="section-header">Anime Watch Party!</h3>
                 <div class="row">
                     <div class="col-md-4 mb-4">
                         <div class="product-card">
                             <div class="card-img-wrapper">
-                                <img src="image/l1.jpg" class="card-img-top" alt="Anime 1">
-                                <a href="shop.html" class="quick-view-btn">Quick View</a>
+                                <img src="image/l1.jpg" class="card-img-top" alt="Demon Slayer S4">
+                                <a href="#" class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#animeModal1">Quick View</a>
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Demon Slayer S4</h5>
@@ -121,8 +121,8 @@
                     <div class="col-md-4 mb-4">
                         <div class="product-card">
                             <div class="card-img-wrapper">
-                                <img src="image/l2.jpg" class="card-img-top" alt="Anime 2">
-                                <a href="shop.html" class="quick-view-btn">Quick View</a>
+                                <img src="image/l2.jpg" class="card-img-top" alt="Jujutsu Kaisen">
+                                <a href="#" class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#animeModal2">Quick View</a>
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">Jujutsu Kaisen</h5>
@@ -133,13 +133,71 @@
                     <div class="col-md-4 mb-4">
                         <div class="product-card">
                             <div class="card-img-wrapper">
-                                <img src="image/l3.jpg" class="card-img-top" alt="Anime 3">
-                                <a href="shop.html" class="quick-view-btn">Quick View</a>
+                                <img src="image/l3.jpg" class="card-img-top" alt="My Hero Academia">
+                                <a href="#" class="quick-view-btn" data-bs-toggle="modal" data-bs-target="#animeModal3">Quick View</a>
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">My Hero Academia</h5>
                                 <p class="card-text">Season 7</p>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modals for Anime Watch Party -->
+            <!-- Modal for Demon Slayer S4 -->
+            <div class="modal fade" id="animeModal1" tabindex="-1" aria-labelledby="animeModal1Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="animeModal1Label">Demon Slayer S4</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="image/l1.jpg" class="img-fluid mb-3" alt="Demon Slayer S4">
+                            <p>Join the watch party for Demon Slayer Season 4! Experience the thrilling new episodes featuring Tanjiro and the Hashira as they battle powerful demons. Perfect for fans of action-packed anime!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="form-submit-btn" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for Jujutsu Kaisen -->
+            <div class="modal fade" id="animeModal2" tabindex="-1" aria-labelledby="animeModal2Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="animeModal2Label">Jujutsu Kaisen</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="image/l2.jpg" class="img-fluid mb-3" alt="Jujutsu Kaisen">
+                            <p>Get ready for the Jujutsu Kaisen movie release! Join our watch party to dive into the world of curses and sorcery with Yuji Itadori and friends. A must-watch for anime enthusiasts!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="form-submit-btn" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal for My Hero Academia -->
+            <div class="modal fade" id="animeModal3" tabindex="-1" aria-labelledby="animeModal3Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="animeModal3Label">My Hero Academia</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="image/l3.jpg" class="img-fluid mb-3" alt="My Hero Academia">
+                            <p>Celebrate Season 7 of My Hero Academia with our watch party! Follow Deku and Class 1-A as they face new challenges in their quest to become pro heroes. Ideal for fans of superhero anime!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="form-submit-btn" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -185,7 +243,7 @@
                                     <img src="image/b3.webp" class="card-img-top" alt="Trading Card">
                                     <span class="quick-view-btn">Quick View</span>
                                 </div>
-                                <div class="card-body">
+                                < incisiv class="card-body">
                                     <h5 class="card-title">Pokémon Card Pack</h5>
                                     <p class="card-text">₱599</p>
                                 </div>
@@ -206,9 +264,57 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // Handle fade-in animations
             const elements = document.querySelectorAll('.fade-in');
             elements.forEach(element => {
                 element.classList.add('fade-in');
+            });
+
+            // Check if Bootstrap is loaded
+            if (typeof bootstrap === 'undefined') {
+                console.error('Bootstrap JavaScript is not loaded. Please check if js/bootstrap.bundle.min.js is correctly included.');
+                return;
+            }
+
+            // Initialize modals manually
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                const modalInstance = new bootstrap.Modal(modal, {
+                    backdrop: true,
+                    keyboard: true,
+                    focus: true
+                });
+
+                // Debug: Log when modal is opened
+                modal.addEventListener('show.bs.modal', function() {
+                    console.log('Modal opened: ' + modal.id);
+                });
+
+                // Debug: Log when modal is closed
+                modal.addEventListener('hidden.bs.modal', function() {
+                    console.log('Modal closed: ' + modal.id);
+                });
+
+                // Handle backdrop click to close modal
+                modal.addEventListener('click', function(e) {
+                    if (e.target === modal) {
+                        console.log('Backdrop clicked for modal: ' + modal.id);
+                        modalInstance.hide();
+                    }
+                });
+            });
+
+            // Handle close buttons
+            const closeButtons = document.querySelectorAll('[data-bs-dismiss="modal"]');
+            closeButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const modal = this.closest('.modal');
+                    console.log('Close button clicked for modal: ' + modal.id);
+                    const modalInstance = bootstrap.Modal.getInstance(modal) || new bootstrap.Modal(modal);
+                    modalInstance.hide();
+                });
             });
         });
     </script>
